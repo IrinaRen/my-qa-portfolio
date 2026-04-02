@@ -180,7 +180,7 @@ body.light .nav-links a:hover {
   font-size: 12px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: white;
+  color: #ffffff;
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
 }
 
@@ -191,7 +191,7 @@ body.light .nav-links a:hover {
 }
 
 .hero-text,
-.section-heading p,
+.section-heading p:not(.section-tag),
 .info-card p,
 .domain-card p,
 .integration-card p,
@@ -216,6 +216,8 @@ body.light .nav-links a:hover {
   border-radius: 14px;
   font-weight: 700;
   transition: transform 0.2s ease, opacity 0.2s ease, background 0.2s ease;
+  position: relative;
+  z-index: 3;
 }
 
 .btn:hover {
@@ -530,12 +532,11 @@ body.light .nav-links a:hover {
   background: var(--panel);
   border: 1px solid var(--panel-border);
   box-shadow: var(--shadow);
-
   position: relative;
   z-index: 2;
 }
 
-.bug-card a { 
+.bug-card a {
   position: relative;
   z-index: 3;
 }
@@ -582,11 +583,6 @@ body.light .nav-links a:hover {
   color: var(--accent);
 }
 
-.btn {
-  position: relative;
-  z-index: 3;
-}
-
 .eyebrow {
   display: flex;
   flex-direction: column;
@@ -601,12 +597,4 @@ body.light .nav-links a:hover {
 
 .badge-line.secondary {
   opacity: 0.85;
-}
-
-body.light .section-tag,
-body.light .eyebrow {
-  color: #ffffff;
-  text-shadow: 
-    0 1px 2px rgba(0, 0, 0, 0.25),
-    0 0 8px rgba(124, 156, 255, 0.25);
 }
