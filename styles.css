@@ -506,3 +506,58 @@ body.light .site-header {
     padding: 24px;
   }
 }
+
+.bug-list {
+  display: grid;
+  gap: 20px;
+}
+
+.bug-card {
+  padding: 24px;
+  border-radius: 20px;
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  box-shadow: var(--shadow);
+}
+
+.bug-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.badges {
+  display: flex;
+  gap: 10px;
+}
+
+.badge {
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.severity {
+  background: #f0ad4e;
+  color: #000;
+}
+
+.priority {
+  background: #d9534f;
+  color: white;
+}
+
+.bug-meta {
+  margin-top: 10px;
+  color: var(--muted);
+}
+
+.bug-section {
+  margin-top: 12px;
+}
+
+.bug-section h4 {
+  margin-bottom: 4px;
+  color: var(--accent);
+}
