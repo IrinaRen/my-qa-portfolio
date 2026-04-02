@@ -518,6 +518,14 @@ body.light .site-header {
   background: var(--panel);
   border: 1px solid var(--panel-border);
   box-shadow: var(--shadow);
+
+  position: relative;
+  z-index: 2;
+}
+
+.bug-card a { 
+  position: relative;
+  z-index: 3;
 }
 
 .bug-header {
