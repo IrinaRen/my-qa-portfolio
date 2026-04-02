@@ -193,10 +193,10 @@ body.light .nav-links a:hover {
 .hero-text,
 .section-heading p:not(.section-tag),
 .info-card p,
-.domain-card p,
-.integration-card p,
-.timeline-content p,
-.contact-card p {
+domain-card p,
+integration-card p,
+timeline-content p,
+contact-card p {
   color: var(--muted);
 }
 
@@ -597,4 +597,8 @@ body.light .nav-links a:hover {
 
 .badge-line.secondary {
   opacity: 0.85;
+}
+
+.eyebrow {
+  margin-bottom: clamp(18px, 4vw, 32px);
 }
