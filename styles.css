@@ -574,3 +574,19 @@ body.light .site-header {
   position: relative;
   z-index: 3;
 }
+
+.eyebrow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 4px;
+}
+
+.badge-line {
+  display: block;
+}
+
+.badge-line.secondary {
+  opacity: 0.85;
+}
