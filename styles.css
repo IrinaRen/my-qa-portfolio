@@ -602,3 +602,8 @@ body.light .nav-links a:hover {
 .badge-line.secondary {
   opacity: 0.85;
 }
+
+body.light .section-tag,
+body.light .eyebrow {
+  color: #ffffff;
+}
