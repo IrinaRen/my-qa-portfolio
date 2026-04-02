@@ -569,3 +569,8 @@ body.light .site-header {
   margin-bottom: 4px;
   color: var(--accent);
 }
+
+.btn {
+  position: relative;
+  z-index: 3;
+}
