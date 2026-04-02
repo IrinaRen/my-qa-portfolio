@@ -124,14 +124,26 @@ body.light .site-header {
 }
 
 .nav-links a {
-  color: var(--muted);
-  font-weight: 500;
-  transition: color 0.2s ease, transform 0.2s ease;
+  color: var(--text);
+  font-weight: 600;
+  opacity: 0.9;
+  transition: color 0.2s ease, transform 0.2s ease, opacity 0.2s ease;
 }
 
 .nav-links a:hover {
   color: var(--text);
+  opacity: 1;
   transform: translateY(-1px);
+}
+
+body.light .nav-links a {
+  color: #243250;
+  opacity: 0.92;
+}
+
+body.light .nav-links a:hover {
+  color: #0e1630;
+  opacity: 1;
 }
 
 .theme-toggle {
